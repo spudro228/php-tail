@@ -1,0 +1,4 @@
+tasks:
+    - command: "pecl channel-update pecl.php.net"
+    - command: "pecl install inotify"
+

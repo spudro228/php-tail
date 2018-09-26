@@ -4,7 +4,7 @@ const MINIMUM_COUNT_OF_ARGUMENTS = 2;
 
 print "Inotify start...\n";
 
-$file_name = $argv[1];
+$file_name = $argv[1] ?? '';
 
 if (!file_exists($file_name)) {
     exit("File not exits.\n");
